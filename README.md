@@ -20,5 +20,13 @@ A Practice on Project Design &amp; TDD
 |-|-|-|-|
 |POST|/api/users/signup|Create a user|boolean|
 
+The post object must take the form:
+
+    {
+      "username": "someone",
+      "password": "1234",
+      "email": "someone@gmail.com"
+    }
+
 
 
